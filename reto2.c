@@ -6,8 +6,13 @@ int main(int argc, char const *argv[])
 {
     int palabra1 = strlen(argv[1]);
     int palabra2 = strlen(argv[2]);
+    char mostrar;
     printf("La Primera Palabra es %s y mide %ld, y la segunda es %s y mide %ld", argv[1], palabra1, argv[2], palabra2);
     return 0;
+}
+
+void comparar(){
+    mostrar = "hola";
 }
 
 
